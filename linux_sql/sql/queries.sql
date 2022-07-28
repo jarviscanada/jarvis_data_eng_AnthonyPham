@@ -34,5 +34,5 @@ FROM host_usage u
 INNER JOIN host_info i
 ON u.host_id =i.id
 GROUP BY u.host_id,ts
-HAVING COUNT(round5(u.timestamp))<5
+HAVING COUNT(round5(u.timestamp))<4
 ORDER BY ts;
