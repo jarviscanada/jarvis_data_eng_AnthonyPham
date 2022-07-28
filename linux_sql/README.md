@@ -19,7 +19,7 @@ and then insert the following statement
 The implementation of the project uses a virtual machine hosted on google cloud platform to host a docker container which then contains the PSQL database which stores all the data. The table is populated via a crontab which periodically inserts data which can then be tested and validated via SQL queries.
 
 #Architecture
-![Architecture](/home/centos/dev/jarvis_data_eng_anthonypham/linux_sql/assets/Architecture.jpg?raw=true)
+![Architecture](jarvis_data_eng_AnthonyPham/linux_sql/assets/Architecture.jpg?raw=true)
 
 #Scripts
 1. ```psql_docker.sh```
