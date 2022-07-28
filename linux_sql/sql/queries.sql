@@ -1,16 +1,11 @@
 --1.
-SELECT
-    cpu_number,
-    id,
-    total_mem
-FROM
-    host_info
-GROUP BY
-	cpu_number, id
-ORDER BY
-	total_mem desc;
+SELECT cpu_number, id, total_mem
+FROM   host_info
+GROUP BY cpu_number, id
+ORDER BY total_mem desc;
 
 --2.
+
 --Function to calculate 5 min intervals
 CREATE FUNCTION round5(ts timestamp) RETURNS timestamp AS
 $$
@@ -27,7 +22,7 @@ ON u.host_id =i.id
 GROUP BY u.host_id,rts
 ORDER BY rts;
 
---3.Query to detect all host failures (cron job should enter a new entry every minute)
+--3.
 
 SELECT u.host_id, round5(u.timestamp)as ts, count(round5(u.timestamp)) as num_data_points
 FROM host_usage u
