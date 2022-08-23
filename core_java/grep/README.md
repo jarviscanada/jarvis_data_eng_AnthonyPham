@@ -26,7 +26,7 @@ After the program is run, the output file can be displayed using:
 
 ```cat out/$outfile```
 
-#Implementation Pseudocode
+# Implementation Pseudocode
 
 ``` 
 matchedLines = []
@@ -37,16 +37,16 @@ for file in listFilesRecursively(rootDir)
 writeToFile(matchedLines) 
 ```
 
-#Performance Issue 
+# Performance Issue 
 The application outputs an OutOfMemoryError exception if the file size is larger than the heap of the JVM. The List data structure can easily get extremely large if a file contains too many lines to process. This can be amended by using Stream API's, rather than Lists as Streams do not store data and allows for elements to be computed on demand. 
 
-#Test
+# Test
 The app was tested by inputting sample data into the arguments of the program. The sample data was input with multiple regex strings, root directory paths and out filenames. Functionality was tested against the expected Linux Grep behaviour and adjusted accordingly. 
 
-#Deployment
+# Deployment
 The project was deployed on Docker Hub where the docker image used for the project was uploaded. It can be viewed publically at https://hub.docker.com/repository/docker/anthonypham017/grep or using the following command: ```docker pull anthonypham017/grep```
 
-#Improvement 
+# Improvement 
 - Implement a GUI for a better user experience
 - Fix performance issue using a more memory-efficient implementation
 - Allow user to manipulate files
