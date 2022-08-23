@@ -50,4 +50,3 @@ The project was deployed on Docker Hub where the docker image used for the proje
 - Implement a GUI for a better user experience
 - Fix performance issue using a more memory-efficient implementation
 - Allow user to manipulate files
-
