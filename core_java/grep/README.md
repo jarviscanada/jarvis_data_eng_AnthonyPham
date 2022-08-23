@@ -11,30 +11,30 @@ The following variables are required to run the program:
 The application can be run in two ways
 
 1. Using the Jar file:
-
-```mvn clean package ```
-
-```java -jar target/grep-1.0-SNAPSHOT.jar ${regex_pattern} ${src_dir} ./out/${outfile}```
+```
+mvn clean package
+java -jar target/grep-1.0-SNAPSHOT.jar ${regex_pattern} ${src_dir} ./out/${outfile}
+```
 
 2. Using the Docker image:
 
-```docker pull anthonypham017/grep```
-
-```docker run --rm -v `pwd`/data:/data -v `pwd`/out:/out julngyn/grep ${regex_pattern} ${src_dir} /out/${outfile}```
+```
+docker pull anthonypham017/grep
+docker run --rm -v `pwd`/data:/data -v `pwd`/out:/out julngyn/grep ${regex_pattern} ${src_dir} /out/${outfile}
+```
 
 After the program is run, the output file can be displayed using:
-
 ```cat out/$outfile```
 
 # Implementation Pseudocode
 
-``` 
-matchedLines = []
+```
+ matchedLines = []
 for file in listFilesRecursively(rootDir)
   for line in readLines(file)
       if containsPattern(line)
         matchedLines.add(line)
-writeToFile(matchedLines) 
+writeToFile(matchedLines)
 ```
 
 # Performance Issue 
@@ -50,4 +50,3 @@ The project was deployed on Docker Hub where the docker image used for the proje
 - Implement a GUI for a better user experience
 - Fix performance issue using a more memory-efficient implementation
 - Allow user to manipulate files
-
