@@ -12,8 +12,10 @@ The application can be run in two ways.
 
 1. Using the Jar file :
 
-```mvn clean package
-java -jar target/grep-1.0-SNAPSHOT.jar ${regex_pattern} ${src_dir} ./out/${outfile}```
+```
+mvn clean package
+java -jar target/grep-1.0-SNAPSHOT.jar ${regex_pattern} ${src_dir} ./out/${outfile}
+```
 
 2. Using the Docker image:
 
