@@ -8,10 +8,9 @@ The following variables are required to run the program:
 - ```src_dir```: the source directory path
 - ```outfile```: the output file name
 
-The application can be run in two ways.
+The application can be run in two ways
 
-1. Using the Jar file :
-
+1. Using the Jar file:
 ```mvn clean package
 java -jar target/grep-1.0-SNAPSHOT.jar ${regex_pattern} ${src_dir} ./out/${outfile}```
 
