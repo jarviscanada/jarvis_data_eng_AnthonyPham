@@ -99,15 +99,9 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
+      "description": "Worked in a team of software developers in an Agile/Scrum work environment, consisting of daily scrum meetings and a two-week sprint. Various projects spanning several techincal fields were developed and the team lead role held various responsibilities such as leading the daily scrum meetings and helping provide insight to any given project through discussions during daily scrum.Worked with technologies such as PostgreSQL, Docker, Maven, API's and Github.",
+      "duration": "2022-present",
       "title": "Software Developer"
-    },
-    {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
     }
   ],
   "skills": {
