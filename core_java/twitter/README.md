@@ -12,30 +12,33 @@ Environment variables are required in order to access from the Twitter Developer
 
 **POST**
 - Allows the user to post a tweet with a location using geotag
+
 ```
 - TwitterApp post tweet_text longitude:latitude
 ```
 
 **SHOW**
 - Allows the user to retrieve and read a tweet by using the tweet's id
+
 ```
 - TwitterApp show tweet_id [field1, field2,...]
 ```
 
 **DELETE**
 - Allows the user to delete one or multiple tweets
+
 ```
 - TwitterApp delete [id1, id2 ...]
 ```
 
-#1. Running using Maven
+# 1. Running using Maven
 
 ```
 mvn clean package -Dmaven.test.skip=true
 java -jar target/twitter-1.0-SNAPSHOT.jar post|show|delete [options]
 ```
 
-#2. Running using Docker
+# 2. Running using Docker
 
 ```
 docker pull anthonypham017/twitter
@@ -48,8 +51,9 @@ docker run --rm \
 anthonypham017/twitter post|show|delete [options]
 ```
 
-#Design
-##UML Diagram
+# Design
+## UML Diagram
+
 ![twitteruml](assets/twitter_uml.png?raw=true)
 
 # Application
