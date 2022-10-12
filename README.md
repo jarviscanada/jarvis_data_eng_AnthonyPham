@@ -6,38 +6,28 @@ I am a recent graduate from what is formerly Ryerson University, with a degree C
 
 **Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Docker, fermentum, Donec, fermentum, Donec
+**Competent:** Docker, HTML/CSS, Maven, MongoDB, Data Structures
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** C/C++, Javascript, Python, JUnit, Hadoop
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham/tree/master/linux_sql)]: The Linux Cluster Monitoring Agent is a project that creates a method for monitoring data collected into SQL tables running on a containerized PostgreSQL platform. Through a virtual machine hosted on the google cloud platform, a docker container is created which hosts the Postgres database. The database is populated with hardware specifications of the active computer via various bash scripts after which several SQL queries can be run to check on the integrity of the data received. The process of data collection is automated by use of a crontab, and the job is set to collect a new piece of data every minute. The whole application is built and managed with Git and stored on a Github repository. To summarize the following technologies were used to build the project: Linux, CentOS, Docker, PostgreSQL, Bash, Git, Github, Google Cloud Platform, Crontab, Intellij
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring Agent that creates a method for monitoring data collected into SQL tables running on a containerized PostgreSQL platform. Through a virtual machine hosted on the google cloud platform, a docker container is created which hosts the Postgres database. The database is populated with hardware specifications of the active computer via various bash scripts after which several SQL queries can be run to check on the integrity of the data received. The process of data collection is automated by use of a crontab, and the job is set to collect a new piece of data every minute. The whole application is built and managed with Git and stored on a Github repository. To summarize the following technologies were used to build the project: Linux, CentOS, Docker, PostgreSQL, Bash, Git, Github, Google Cloud Platform, Crontab, Intellij
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: This application is used to connect and interact with a PostgreSQL database. It can perform CRUD (creation, read, update and deletion) operations on the database. The project uses Java, JDBC, Maven, SQL, Docker and PostgreSQL
-  - Grep App: This application emulates the functionality of the linux Grep command. It can search files and directories to match a given string within files. The project uses Maven, Stream API's, and Java.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnthonyPham/tree/master/cloud_devops)]: Not Started
+  - Twitter App: Developed an application that allows a user to post, show and delete Tweets utilizing the official Twitter REST API's. The application is designed using MVC architecture, which consists of a model, controller layer, service layer and data access layer (DAO). The application uses Java, JUnit, Spring, Docker, HTTP and JSON.
+  - JDBC App: Developed an application that is used to connect and interact with a PostgreSQL database. It can perform CRUD (creation, read, update and deletion) operations on the database. The application uses Java, JDBC, Maven, SQL, Docker and PostgreSQL.
+  - Grep App: Developed an application that emulates the functionality of the linux Grep command. It can search files and directories to match a given string within files. The application uses Maven, Stream API's, and Java.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Grocery List Application**: Worked in a team to develop a functioning Android application using Android Studio, Java and Google Firebase. The application provides CRUD operations to create and use grocery lists, as well as the ability to read barcodes and authenticate users by recording usernames and passwords onto the live Firebase database. The team collaborated using GitHub and held daily meetings to create charts and discuss project scheduling.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**CACM Document Retrieval Application**: Created a Java program that finds the the most relevant document in a collection of over 3000 documents. Preprocessed queries to filter stop words, stem words and non-alphanumeric values and stored document frequency, term frequency, position and document ID for every term. This information was then used to score the document relevancy for any user query to find the most relevant documents.
 
 
 ## Professional Experiences
@@ -47,16 +37,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AnthonyPha
 
 ## Education
 **Ryerson/Toronto Metropolitan University (2017-2022)**, Bachelor of Computer Science, Faculty of Science
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
-
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- CompTIA ITF+ (2022)
+- Minor in Philosophy
