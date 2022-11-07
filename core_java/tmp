@@ -1,0 +1,6 @@
+for dir in $(ls -d */); do
+touch $dir/pom.xml;
+touch $dir/README.md;
+mkdir -p $dir/src/test/java/ca/jrvs/apps/$dir
+mkdir -p $dir/src/main/java/ca/jrvs/apps/$dir
+done
